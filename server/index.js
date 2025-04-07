@@ -19,7 +19,7 @@ const port = process.env.PORT || 5000;
 // Middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://synapses-chat-app.vercel.app",
+    origin: process.env.CLIENT_URL || "https://react-realtime-chat-app-beta.vercel.app",
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
